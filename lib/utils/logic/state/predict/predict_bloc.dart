@@ -24,6 +24,7 @@ class PredictBloc extends Bloc<PredictEvent, PredictState> {
       print(quality);
 
       bool good = quality > 0.5;
+      print("good: $good");
       add(FinishAnalyze(good: good));
     } catch (e) {
       add(FinishAnalyze(error: e.toString()));
