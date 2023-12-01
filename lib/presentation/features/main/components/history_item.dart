@@ -1,9 +1,10 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:olive_quality/core/extensions/date_time_extension.dart';
-import 'package:olive_quality/core/extensions/num_extension.dart';
-import 'package:olive_quality/utils/logic/models/history_model.dart';
+
+import '../../../../core/extensions/date_time_extension.dart';
+import '../../../../core/extensions/num_extension.dart';
+import '../../../../utils/logic/models/history_model.dart';
 
 class HistoryItem extends StatelessWidget {
   final HistoryModel historyModel;

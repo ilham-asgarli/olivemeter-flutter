@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:olive_quality/utils/logic/state/history/history_bloc.dart';
-import 'package:olive_quality/utils/logic/state/image/image_bloc.dart';
 
+import '../../../utils/logic/state/history/history_bloc.dart';
+import '../../../utils/logic/state/image/image_bloc.dart';
 import '../main/view/main_view.dart';
 
 class MyAppView extends StatelessWidget {

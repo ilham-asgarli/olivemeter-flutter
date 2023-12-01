@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:olive_quality/core/extensions/context_extension.dart';
 
+import '../../../../core/extensions/context_extension.dart';
 import '../../../../utils/logic/state/image/image_bloc.dart';
 import 'give_permission.dart';
 import 'image_grid.dart';

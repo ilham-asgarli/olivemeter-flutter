@@ -5,10 +5,10 @@ import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:olive_quality/core/extensions/context_extension.dart';
-import 'package:olive_quality/core/extensions/num_extension.dart';
 import 'package:photo_manager/photo_manager.dart';
 
+import '../../../../core/extensions/context_extension.dart';
+import '../../../../core/extensions/num_extension.dart';
 import '../../../../utils/logic/models/create_history_model.dart';
 import '../../../../utils/logic/state/history/history_bloc.dart';
 import '../../../../utils/logic/state/predict/predict_bloc.dart';

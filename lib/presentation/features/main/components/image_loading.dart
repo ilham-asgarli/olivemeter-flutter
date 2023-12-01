@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:olive_quality/core/extensions/context_extension.dart';
 
+import '../../../../core/extensions/context_extension.dart';
 import '../../../widgets/my_shimmer.dart';
 
 class ImageShimmer extends StatelessWidget {

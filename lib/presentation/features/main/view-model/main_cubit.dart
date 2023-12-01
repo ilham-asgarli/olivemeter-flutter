@@ -1,8 +1,9 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:olive_quality/presentation/features/main/components/analyzer.dart';
 import 'package:photo_manager/photo_manager.dart';
+
+import '../components/analyzer.dart';
 
 part 'main_state.dart';
 

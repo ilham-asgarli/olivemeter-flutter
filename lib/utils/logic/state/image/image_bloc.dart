@@ -1,7 +1,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:olive_quality/utils/logic/helpers/photo-manager/photo_manager_helper.dart';
-import 'package:olive_quality/utils/logic/models/image_model.dart';
+
+import '../../helpers/photo-manager/photo_manager_helper.dart';
+import '../../models/image_model.dart';
 
 part 'image_event.dart';
 part 'image_state.dart';

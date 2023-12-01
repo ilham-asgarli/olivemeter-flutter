@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:olive_quality/core/extensions/num_extension.dart';
 import 'package:photo_manager/photo_manager.dart';
 
+import '../../../../core/extensions/num_extension.dart';
 import '../../../../utils/logic/state/image/image_bloc.dart';
 
 class GivePermission extends StatefulWidget {

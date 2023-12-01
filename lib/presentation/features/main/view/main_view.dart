@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:olive_quality/core/extensions/context_extension.dart';
-import 'package:olive_quality/core/extensions/num_extension.dart';
-import 'package:olive_quality/presentation/features/main/components/history.dart';
-import 'package:olive_quality/presentation/features/main/components/photos.dart';
-import 'package:olive_quality/utils/logic/helpers/image-picker/image_picker_helper.dart';
 
+import '../../../../core/extensions/context_extension.dart';
+import '../../../../core/extensions/num_extension.dart';
+import '../../../../utils/logic/helpers/image-picker/image_picker_helper.dart';
+import '../components/history.dart';
+import '../components/photos.dart';
 import '../view-model/main_cubit.dart';
 
 class MainView extends StatelessWidget {

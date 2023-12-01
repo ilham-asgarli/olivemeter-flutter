@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:olive_quality/core/extensions/context_extension.dart';
-import 'package:olive_quality/utils/logic/models/image_model.dart';
-import 'package:olive_quality/utils/logic/state/image/image_bloc.dart';
 
+import '../../../../core/extensions/context_extension.dart';
+import '../../../../utils/logic/models/image_model.dart';
+import '../../../../utils/logic/state/image/image_bloc.dart';
 import 'gallery_image_item.dart';
 
 class ImageGrid extends StatefulWidget {
